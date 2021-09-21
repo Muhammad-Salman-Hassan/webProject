@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  padding-bottom: 2rem;
+  min-height: 100%;
+  padding-top:2rem;
+  min-width: 100%;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -27,7 +32,7 @@
 .App-link {
   color: #61dafb;
 }
-
+/* 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +40,14 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.note-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items:center;
+}
+#note__app{
+  color: rgb(247, 70, 99);
 }
